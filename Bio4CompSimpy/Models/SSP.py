@@ -6,11 +6,11 @@ import matplotlib.pyplot as plt
 import math
 import time
 import abc
-from Helper_funcs import *
-import Models.Script_generator
+from Bio4CompSimpy.Helper_funcs import *
+from Bio4CompSimpy.Models.Script_generator import Script_generator
 
 
-class SSP(Models.Script_generator.Script_generator):
+class SSP(Script_generator):
 
     # ------------------------------------------bcs model notes (SSP)-------------------------------------#
     #   Model explanation:

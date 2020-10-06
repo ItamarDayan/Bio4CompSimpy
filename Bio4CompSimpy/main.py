@@ -1,5 +1,17 @@
+import os
+import pathlib
+import sys
 
-from Bio4CompSimpy.Helper_funcs import User_IO
+#------------------ Setup enviroment variable--------------------#
+path = str(pathlib.Path().absolute().parent)
+try:
+    sys.path.index(path)
+except ValueError:
+    sys.path.append(path)
+#----------------------------------------------------------------#
+
+
+from Helper_funcs import User_IO
 #   ______________________________Main______________________________________________
 
 if __name__ == "__main__":
