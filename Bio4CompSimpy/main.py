@@ -11,7 +11,7 @@ except ValueError:
 #----------------------------------------------------------------#
 
 
-from Helper_funcs import User_IO
+from Bio4CompSimpy.Helper_funcs import User_IO
 #   ______________________________Main______________________________________________
 
 if __name__ == "__main__":
